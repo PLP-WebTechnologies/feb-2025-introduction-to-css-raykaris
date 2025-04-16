@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ID selector */
+#main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Class selector for section headings */
+.section-heading {
+    font-size: 1.8rem;
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Class selector for ordered list */
+.roman-list {
+    list-style-type: upper-roman;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+/* Class selector for image styling */
+.styled-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Class selector for paragraph styling */
+.description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px dashed #aaa;
+    background-color: #fff;
+    border-radius: 8px;
+}
